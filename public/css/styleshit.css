@@ -1,0 +1,83 @@
+.loginForm{
+  width:250px;
+
+
+margin:15% auto;
+  background-color: gray;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+
+  .loginInfo p{
+    color: red;
+    font-weight: bold;
+    padding: 8%;
+    font-family: monospace;
+  }
+  .loginForm button{
+    width:49%;
+  }
+  .loginInfo{
+    padding:7%;
+  }
+
+.chatBox{
+  margin:15% auto;
+  margin:1%;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.topChatBox{
+  margin:1%;
+
+  border-bottom: 2px solid black;
+}
+    .topChatBox h1{
+
+      display:inline-block;
+    }
+    .topChatBox button{
+      float:right;;
+      margin:2%;
+      display: inline-block;
+    }
+.chat{
+  margin:1%;
+max-height: 250px;
+  overflow-y: scroll;
+  border-bottom: 2px solid black;
+
+}
+.messageSend{
+ padding-top:15px;
+  margin:1%;
+  width:100%;
+}
+
+  .messageSend input{
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .messageSend button{
+    width:22%;
+    margin-bottom:6px;
+  }
+  .titles{
+    border-bottom:1px solid black;
+    min-height:50px;
+    padding: 1%;
+  }
+
+
+
+
+  .messages{
+    width:69%;
+    display:inline-block;
+  }
+  .loggedInUsers{
+    width:29%;
+    display:inline-block;
+  }

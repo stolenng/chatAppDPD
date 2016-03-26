@@ -1,0 +1,13 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"connected": {
+			"name": "connected",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "connected",
+			"order": 0
+		}
+	}
+}
