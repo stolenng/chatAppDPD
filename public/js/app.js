@@ -187,7 +187,7 @@ chatApp.controller('chatController' ,['$rootScope','dpd','messageService','userS
             //Scroll Chat On Init
             $timeout(function () {
                    $scope.scrollChat();
-                },35);
+                },55);
 
 
 
