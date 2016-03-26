@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Georgy's Chat</title>
+</head>
+<body >
+<div class="chatBox" ng-init="scrollChat()" ng-controller="chatController">
+    <div class="topChatBox">
+            <h1>Welcome To Chat :  {{user.username}}</h1>
+        <button ng-click="disconnect()" class="btn btn-danger">Disconnect</button>
+    </div>
+
+    <div id="chat" class="chat">
+
+            <p ng-repeat="msg in messages ">{{msg.user.username}} :{{msg.text}}</p>
+            <span id="downChat"></span>
+        </div>
+
+
+
+<div class="messageSend">
+    <input type="text" ng-model="message" />
+    <button id="register" ng-click="addMessage()" class="btn btn-success" value="Register">Send</button>
+</div>
+</div>
+
+</body>
+</html>
